@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Lista de palavras a serem buscadas
-    char *word_list[] = {"OPENMPIEX"};
+    char *word_list[] = {"algoritmos","bubblesort","quicksort","mergesort","arvore","openmp","prova"};
     int word_count = sizeof(word_list) / sizeof(word_list[0]);
 
     // Cada processo busca por palavras em uma parte da matriz
